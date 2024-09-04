@@ -18,7 +18,7 @@ router.get('/', cache('2 minutes'), async (req, res) => {
         // Configuration for external API request
         const params = new URLSearchParams({
             [API_KEY_NAME]: API_KEY_VALUE,
-            count: 5
+            count: 10
         });
         const apiRes = await needle('get', `${API_BASE_URL}?${params}`);
         const data = apiRes.body;
