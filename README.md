@@ -5,7 +5,6 @@ Proxy server that hides API keys
 ## Features
 
 - request rate limiting
-- API response caching, 
 
 ## Technologies
 - JavaScript
